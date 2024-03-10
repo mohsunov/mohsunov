@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rashid Mohsunov | Resume</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draco is free PSD &amp; HTML template by @afnizarnur">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'Rashid';
+		}
+	</style>
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">DRACO</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#experiences">Experiences</a></li>
+				        <li><a href="#education">Education</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Rashid Mohsunov</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava.jpg" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I am<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					Driven by my fascination with geopolitics, history, and economic sciences, I'm pursuing a degree in International Relations. This passion for international affairs fuels my ambition for a future career in diplomacy or politics.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>2020-2023</li>
+				<li><a href="#">Avromak</a></li>
+				<li>IT Specialist</li>
+			</ul>
+<!-- 			<ul class="work-list">
+				<li>2014-2015</li>
+				<li><a href="#">Wego</a></li>
+				<li>UI/UX Designer</li>
+			</ul>
+			<ul class="work-list">
+				<li>2014-2015</li>
+				<li><a href="#">Garuda Indonesia</a></li>
+				<li>System Designer</li>
+			</ul> -->
+		</div>
+	</div>
+
+	<!-- Education-->
+	<div class="award section second" id="education">
+		<div class="container">
+			<h1>Education</h1>
+			<ul class="award-list list-flat">
+				<li>2023-2027</li>
+				<li><b>Bolu Abant Izzet Baysal University</b></li>
+				<li>International Relations</li>
+			</ul>
+<!-- 			<ul class="award-list list-flat">
+				<li>October 2022</li>
+				<li><b>Comptia ITF+</b></li>
+			</ul> -->
+<!-- 			<ul class="award-list list-flat">
+				<li>March 2014</li>
+				<li>Placed employees at X companies</li>
+				<li>United multiple teams post-merger</li>
+			</ul> -->
+		</div>
+	</div>
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Licenses &amp;<br>certifications</h1>
+			<ul class="award-list list-flat">
+				<li>June 2023</li>
+				<li><b>IELTS Academic</b></li>
+				<li>7.5 Overall Band Score</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>October 2022</li>
+				<li><b>Comptia ITF+</b></li>
+			</ul>
+<!-- 			<ul class="skill-list list-flat">
+				<li>Framework</li>
+				<li>Laravel / CodeIgniter / Zend / Ruby On Rails</li>
+			</ul> -->
+		</div>
+	</div>
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>Pale Blue Dot</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+			    	<p>Rashid Mohsunov | 2024</p>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="https://linkedin.com/in/rashidmohsunov"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="http://github.com/mohsunov"><i class="fa fa-github"></i></a></li>
+<!-- 						<li><a href="http://dribbble.com/#"><i class="fa fa-dribbble"></i></a></li>
+						<li><a href="http://behance.com/#"><i class="fa fa-behance"></i></a></li> -->
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["International Relations Student", "Former IT Specialist"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
